@@ -6,7 +6,7 @@
   <script src="https://unpkg.com/vue@next"></script>
   <script src="https://unpkg.com/vue-router@4"></script>
   <script src="https://cdn.jsdelivr.net/npm/vue3-sfc-loader"></script>
-  <script src="https://utupress.github.io/tags/vue-load-module.js"></script>
+  <script src="https://utupress.github.io/blocks/vue-load-module.js"></script>
 
   <script>
 
@@ -14,8 +14,8 @@
     // Each route should map to a component.
     // We'll talk about nested routes later.
     const routes = [
-      { path: '/', component: fetchWebsite('website.vue') },
-      { path: '/about', component: fetchWebsite('website.vue') },
+      { path: '/', component: fetchPage('website.vue') },
+      { path: '/about', component: fetchPage('website.vue') },
     ]
 
     // 3. Create the router instance and pass the `routes` option
